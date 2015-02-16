@@ -1,0 +1,43 @@
+body {
+	font-size: 13px;
+	font-family: "Tahoma"
+}
+
+table {
+	border-bottom: 1px solid #cccccc;
+}
+
+td {
+	padding: 0;
+}
+
+div {
+	margin: 5px 2px 0 5px;
+	padding: 5px 10px 5px 10px;
+}
+
+div {
+	background-image: url("left.gif"), url("right.gif"), url("mid.gif");
+	background-position: left top, right top, center top;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+}
+
+.selected {
+	font-weight: bold;
+	background-image: url("left-selected.gif"), url("right-selected.gif"), url("mid-selected.gif");
+	background-position: left top, right top, center top;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	border-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	white-space: nowrap;
+}
+
+td a:hover {
+	color: #cc6600;
+	cursor: pointer;
+}
+
